@@ -1,0 +1,556 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+
+}
+
+ul,
+li
+{
+    margin: 0;
+    padding: 0;
+}
+
+/*===================================
+TOP HEADER SECTION
+====================================*/
+
+section.top-header-section {
+    padding: 8px 0;
+
+    background: #314646;
+}
+
+.top-social-menu ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.top-social-menu ul li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.top-social-menu ul li a {
+    display: inline-block;
+    color: #fff;
+    font-size: 19px;
+    padding: 7px 7px 7px 7px;
+}
+
+.top-menu-area ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.top-menu-area ul li {
+    margin: auto;
+    padding: 0;
+    display: inline-block;
+    padding-left: 15px;
+}
+
+.top-menu-area ul li a {
+    display: inline-block;
+    color: #324646;
+}
+
+.top-menu-area {
+    text-align: right;
+    margin: 18px 0 0 0;
+}
+
+.top-social-menu {
+    /* text-align: center; */
+    margin-top: 15px;
+}
+
+
+.top-social-menu ul li a:hover {
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.contact-area {
+    margin: 8px 0 0 0;
+}
+
+.contact-area a {
+    color: #000;
+    padding-left: 0px;
+    transition: all 0.5s;
+}
+
+.contact-area a:hover {
+    text-decoration: none;
+    color: #32D19F;
+  
+}
+
+.top-menu-area ul li a:hover {
+    text-decoration: none;
+    color: #8D0121;
+}
+
+
+/*=============================
+MAIN HEADER SECTION
+==============================*/
+
+.logo-area a img {
+    width: 280px;
+    height: auto;
+}
+
+.main-menu-area ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.main-menu-area ul li a {
+    display: inline-block;
+    color: #fff;
+    padding: 15px;
+    transition: all 0.5s;
+}
+
+
+section.main-header-section {
+    padding: 30px 0;
+
+}
+
+/*================================
+BUTTOM HEADER SECTION
+=================================*/
+
+section.button-header-section {
+    background: #314646; 
+}
+
+.main-menu-area ul li a:hover {
+    background: #314646;
+    text-decoration: none;
+}
+
+.main-menu-area {margin-left: -15px;}
+
+
+/*===============================
+HERO SECTION
+=================================*/
+
+
+.hero-content {
+    margin: 80px 0 0 0;
+}
+
+    .hero-section{
+
+        padding: 100px 0;
+       
+    }
+
+
+a.hero-btn{
+    display: inline-block;
+    transition: all 0.5s;
+    margin-right: 10px;
+    color: #fff;
+    margin: 15px 10px;
+    padding: 10px 15px;
+    background: #96C346;
+}
+
+a.hero-btn:hover{
+    text-decoration: none;
+    color: #fff;
+  padding: 15px 15px;
+   margin: 10px 10px; 
+  
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+}
+
+/*====================================
+SERVICE SECTION
+=======================================*/
+
+.service-section{
+    color: #fff;
+    position: relative;
+    width: 100%;
+    height: 100%;
+  background: #314646;
+    margin: 0;
+    padding: 100px 0 0 0;
+}
+
+#svg_element{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#svg_element path {
+    fill: #fff;
+}
+
+.service-content img{
+    width: 125px;
+    height: auto;
+    margin: 15px 0 15px 0;
+}
+
+.service-content img path{
+    fill: #fff;
+}
+
+.service-content {
+    text-align: center;
+    box-shadow: 0 0 10px #000;
+    padding: 30px 30px;
+    margin: 15px 0 180px 0;
+    min-height: 390px;
+    transition: all 1s;
+}
+
+.service-content:hover {
+    background: #96C346;
+}
+
+
+.service-content h2 {
+    font-size: 22px;
+}
+
+.section-title {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+
+/*=================================
+LATEST PROJECT SECTION
+====================================*/
+
+
+.project-img img {
+    width: 100%;
+    height: auto;
+}
+
+.project-text h2 {
+    font-size: 28px;
+    color: #314646;
+    font-weight: 600;
+}
+
+.project-text a {
+    color: #b30000;
+}
+
+span.pro-element {
+    margin-right: 15px;
+}
+
+span.review-emlement a {
+    margin-left: 15px;
+}
+
+span.review-emlement svg {
+    color: #ff9900;
+}
+
+span.reviewcostom-clr {
+    margin-left: 15px;
+}
+
+.recent-project-content {
+    margin: 30px 0;
+   
+}
+
+
+section.recent-project {
+    padding: 80px  0;
+}
+
+/*==========================
+TOP FOOTER SECTION
+===========================*/
+
+section.top-footer-section {
+    background: #314646;
+    color: #ffffff91;
+    padding: 60px 0 0 0;
+}
+
+.footer-title img {
+    width: 70%;
+    opacity: 0.7;
+}
+
+.footer-title h2 {
+    font-weight: 400;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.footer-title a {
+    color: #fff;
+    opacity: 0.6;
+}
+
+
+.copyright-text {
+    text-align: center;
+    position: relative;
+    margin: 30px 0;
+}
+
+.copyright-text:before {
+    width: 530px;
+    height: 1px;
+    left: 27%;
+    top: -16px;
+    position: absolute;
+    content: "";
+    background: #ffffff91;;
+}
+
+
+.copyright-text p {
+    margin: 0;
+}
+
+/*============================
+LOGIN PAGE
+==============================*/
+
+.login-section{
+    background: url(assets/img/login-bg.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+
+.login-form {
+    position: relative;
+    z-index: 1;
+    padding: 50px;
+    text-align: center;
+    /* margin-top: 20px; */
+}
+
+.login-form:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    content: "";
+    background: #fff;
+    opacity: 0.7;
+    border-radius: 8px;
+    z-index: -1;
+}
+
+.login-form h2 {
+    font-weight: 600;
+    color: #314646;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+a.login-btn {
+    background: #fff;
+    width: 135px;
+    display: inline-block;
+    height: 40px;
+    line-height: 20px;
+    padding: 11px 19px;
+    border-radius: 5px;
+    text-align: center;
+    color: #314646;
+}
+
+.login-form form {
+    /*! text-align: left; */
+    margin: 40px 0 0 0;
+}
+
+.login-form form label {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.login-form form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+a.login-btn.custom-color {
+    background: #4267B2;
+    color: #fff;
+}
+
+
+a.login-btn.custom-color svg {
+    color: #fff;
+}
+
+a.login-btn svg {
+    color: #D02329;
+}
+
+.login-form form input[type=text], .login-form form input[type=password],  .login-form form input[type=email]{
+       padding-left: 45px;
+}
+
+
+
+
+
+.login-form form input[type=submit]{
+background: #314646;
+  color: #fff;
+  display: inline-block;
+  width: 200px;
+  margin-top: 30px;
+}
+
+.forget-signup ul li {
+    list-style: none;
+}
+
+.forget-signup a {
+    color: #b30000;
+}
+
+label.username {
+    position: relative;
+   
+}
+
+label.username:after {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f007";
+    color: #314646;
+    font-size: 20px;
+}
+
+label.email {
+    position: relative;
+   
+}
+
+label.email:after {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f0e0";
+    color: #314646;
+    font-size: 20px;
+}
+
+
+label.password {
+    position: relative;
+   
+}
+
+label.password:after {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f023";
+    color: #314646;
+    font-size: 20px;
+}
+
+
+.select-role {
+    text-align: left;
+}
+
+
+
+
+.select-role input.contractor {
+    width: 20px;
+    padding: 0;
+    margin: 0px 0 0 50px;
+}
+
+.select-role input.provider {
+    width: 20px;
+    margin: 0;
+    padding: 0;
+    margin: 0px 0 0 50px;
+}
+
+
+.title-form h2 {
+    position: relative;
+    font-size: 18px;
+}
+
+.title-form h2:after {
+    position: absolute;
+    top: 9px;
+    left: 0;
+    width: 200px;
+    height: 2px;
+    content: "";
+    background: #314646;
+}
+
+.title-form h2:before {
+    position: absolute;
+    top: 9px;
+    right: 0px;
+    width: 200px;
+    height: 2px;
+    content: "";
+    background: #314646;
+}
+
+.title-form {
+    margin-top: 40px;
+}
+
+label.rolr-option svg {
+    color: #314646;
+    font-size: 21px;
+    margin: 0 12px 0px 7px;
+}
+
+.google-img img {
+    margin-top: 15px;
+}
